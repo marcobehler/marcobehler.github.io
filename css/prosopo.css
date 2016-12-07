@@ -75,10 +75,6 @@ h1, .h1, h2, .h2, h3, .h3 {
 .main {
 	position: absolute;
 	z-index: 3;
-
-	/* CHANGE THIS IF YOUR MAIN TEXT IS TOO CLOSE TO THE BOTTOM */
-	bottom: 3em;
-
 	left: 15px;
 	right: 15px;
 }
@@ -112,4 +108,10 @@ h1, .h1, h2, .h2, h3, .h3 {
 .social-buttons a {
 	display: inline-block;
 	margin-right: 10px;
+}
+
+@media screen and (min-width:768px) {
+	.main {
+		bottom: 3em;
+	}
 }
