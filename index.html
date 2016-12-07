@@ -25,130 +25,178 @@
 <body class="full">
 <!-- The full page image background will only work if the body has the custom class set to it! Don't delete it! -->
 
-    <nav class="navbar navbar-fixed-bottom navbar-inverse animated fadeInUp" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">marcobehler.com</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#about" data-toggle="modal" data-target="#modalAbout" >/imprint</a></li>
-                    <li><a href="#services" data-toggle="modal" data-target="#modalServices" >/consulting</a></li>
-                    <li><a href="#contact" data-toggle="modal" data-target="#modalContact" >/blog</a></li>                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<nav class="navbar navbar-fixed-bottom navbar-inverse animated fadeInUp" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">marcobehler.com</a>
         </div>
-        <!-- /.container -->
-    </nav>
 
-    <div class="main animated bounceInRight" >
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-12">
-                    <h1>Want to step up your Java?</h1>
-                    <p>A lot of video programming tutorials : ZzzZZzZzZZZ.</p>
-					<p>Not here. Get opinionated and concise screencasts, made for the modern Java developer. Always with real-life code and workflow.</p>
-					<p><p>
-                    <p>(Open to the public: End of January 2017)</p>
-                    
-                    <!-- Social Icons - FontAwesome -->
-                    <p class="social-buttons">                    	
-                    	<a href="" ><i class="fa fa-github"></i></a>                     	
-                    	<a href="" ><i class="fa fa-twitter"></i></a>                     	
-                    </p>
-					
-				
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#about" data-toggle="modal" data-target="#modalAbout">/imprint</a></li>
+                <li><a href="#services" data-toggle="modal" data-target="#modalServices">/consulting</a></li>
+                <li><a href="#contact" data-toggle="modal" data-target="#modalContact">/blog</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<div class="main animated bounceInRight">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <h1>Want to step up your Java?</h1>
+                <p>A lot of video programming tutorials : ZzzZZzZzZZZ.</p>
+                <p>Not here. Get opinionated and concise screencasts, made for the modern Java developer. Always with
+                    real-life code and workflow.</p>
+                <p>
+                <p>
+                <p>(Open to the public: End of January 2017)</p>
+
+                <!-- Social Icons - FontAwesome -->
+
+
+            </div>
+            <div class="col-lg-6 col-sm-12" style="border: 1px solid #ccc;border-radius: 4px; padding: 2em;">
+
+                <div class="form-group">
+
+                    <p>Like to get early access? Get our 7-part, no-BS video series to getting started with Spring Boot,
+                        from 0 to REST.</p>
+                    <form action="https://sendy.marcobehler.com/subscribe" method="POST" accept-charset="utf-8">
+                        <label for="name">First Name * </label><br/>
+                        <input type="text" name="name" id="name" class="form-control"/>
+                        <br/>
+                        <label for="email">Email *</label><br/>
+                        <input type="email" name="email" id="email" class="form-control"/>
+                        <br/>
+                        <input type="hidden" name="list" value="7yaui1JL7633CriPxto2zZKA"/>
+                        <button type="submit" class="btn btn-primary" name="submit" id="submit">Yep, send me those
+                            videos!
+                        </button>
+                    </form>
+
                 </div>
-				 <div class="col-lg-6 col-sm-12" style="margin-top: 20px" >
-				 
-				  <div class="form-group">
-				 			
-				  <p>Like to get early access? Get our 7-part, no-BS video series to getting started with Spring Boot, from 0 to REST.</p>
-				 <form action="https://sendy.marcobehler.com/subscribe" method="POST" accept-charset="utf-8">
-	<label for="name">First Name * </label><br/>
-	<input type="text" name="name" id="name" class="form-control"/>
-	<br/>
-	<label for="email">Email *</label><br/>
-	<input type="email" name="email" id="email" class="form-control"/>
-	<br/>
-	<input type="hidden" name="list" value="7yaui1JL7633CriPxto2zZKA"/>
-	<button  type="submit" class="btn btn-primary" name="submit" id="submit">Yep, send me those videos!</button>
-</form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <p class="social-buttons">
+                    <a href=""><i class="fa fa-github"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                </p>
 
-</div>
-				 </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
             </div>
         </div>
     </div>
+</div>
 
-	<!-- Modal About -->
-	<div class="modal fade" id="modalAbout" tabindex="-1" role="dialog" aria-labelledby="modalAboutLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="modalAboutLabel">About Me</h4>
-				</div>
+<!-- Modal About -->
+<div class="modal fade" id="modalAbout" tabindex="-1" role="dialog" aria-labelledby="modalAboutLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="modalAboutLabel">About Me</h4>
+            </div>
 
-				<div class="modal-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet vestibulum urna, non semper lorem. Vestibulum euismod auctor venenatis. Morbi tincidunt aliquam ligula non posuere. Cras pharetra tortor sed semper porta. Nullam iaculis tortor et pretium lobortis. Phasellus eu dolor dictum, convallis neque tristique, auctor tortor. In dignissim id diam a ornare. Etiam facilisis turpis vel pellentesque sagittis.</p>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet vestibulum urna, non semper
+                    lorem. Vestibulum euismod auctor venenatis. Morbi tincidunt aliquam ligula non posuere. Cras
+                    pharetra tortor sed semper porta. Nullam iaculis tortor et pretium lobortis. Phasellus eu dolor
+                    dictum, convallis neque tristique, auctor tortor. In dignissim id diam a ornare. Etiam facilisis
+                    turpis vel pellentesque sagittis.</p>
 
-				<p>In sed quam id sem hendrerit condimentum. Vestibulum a urna nisl. Vivamus nunc arcu, bibendum et magna vel, aliquet luctus orci. Quisque nec dignissim tellus. Phasellus non neque eu dolor mattis convallis ut ac ipsum. Maecenas eget risus turpis. Etiam eu ullamcorper ligula, in condimentum lectus. Nullam et risus sed dolor pellentesque consectetur. Mauris at leo malesuada, adipiscing sem eu, consequat felis. Nullam id molestie lorem, ut faucibus ante. Duis pharetra ligula libero, sed consequat ipsum faucibus eget. Donec placerat porta dapibus. Integer venenatis id enim et egestas. Nulla tincidunt dapibus ullamcorper. Etiam sodales faucibus consectetur. Curabitur fermentum, mi ut tristique imperdiet, mi nunc facilisis dolor, eu faucibus enim lacus sit amet felis.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                <p>In sed quam id sem hendrerit condimentum. Vestibulum a urna nisl. Vivamus nunc arcu, bibendum et
+                    magna vel, aliquet luctus orci. Quisque nec dignissim tellus. Phasellus non neque eu dolor mattis
+                    convallis ut ac ipsum. Maecenas eget risus turpis. Etiam eu ullamcorper ligula, in condimentum
+                    lectus. Nullam et risus sed dolor pellentesque consectetur. Mauris at leo malesuada, adipiscing sem
+                    eu, consequat felis. Nullam id molestie lorem, ut faucibus ante. Duis pharetra ligula libero, sed
+                    consequat ipsum faucibus eget. Donec placerat porta dapibus. Integer venenatis id enim et egestas.
+                    Nulla tincidunt dapibus ullamcorper. Etiam sodales faucibus consectetur. Curabitur fermentum, mi ut
+                    tristique imperdiet, mi nunc facilisis dolor, eu faucibus enim lacus sit amet felis.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<!-- Modal Services -->
-	<div class="modal fade" id="modalServices" tabindex="-1" role="dialog" aria-labelledby="modalServicesLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="modalServicesLabel">What I can provide</h4>
-				</div>
+<!-- Modal Services -->
+<div class="modal fade" id="modalServices" tabindex="-1" role="dialog" aria-labelledby="modalServicesLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="modalServicesLabel">What I can provide</h4>
+            </div>
 
-				<div class="modal-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet vestibulum urna, non semper lorem. Vestibulum euismod auctor venenatis. Morbi tincidunt aliquam ligula non posuere. Cras pharetra tortor sed semper porta. Nullam iaculis tortor et pretium lobortis. Phasellus eu dolor dictum, convallis neque tristique, auctor tortor. In dignissim id diam a ornare. Etiam facilisis turpis vel pellentesque sagittis.</p>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet vestibulum urna, non semper
+                    lorem. Vestibulum euismod auctor venenatis. Morbi tincidunt aliquam ligula non posuere. Cras
+                    pharetra tortor sed semper porta. Nullam iaculis tortor et pretium lobortis. Phasellus eu dolor
+                    dictum, convallis neque tristique, auctor tortor. In dignissim id diam a ornare. Etiam facilisis
+                    turpis vel pellentesque sagittis.</p>
 
-				<p>In sed quam id sem hendrerit condimentum. Vestibulum a urna nisl. Vivamus nunc arcu, bibendum et magna vel, aliquet luctus orci. Quisque nec dignissim tellus. Phasellus non neque eu dolor mattis convallis ut ac ipsum. Maecenas eget risus turpis. Etiam eu ullamcorper ligula, in condimentum lectus. Nullam et risus sed dolor pellentesque consectetur. Mauris at leo malesuada, adipiscing sem eu, consequat felis. Nullam id molestie lorem, ut faucibus ante. Duis pharetra ligula libero, sed consequat ipsum faucibus eget. Donec placerat porta dapibus. Integer venenatis id enim et egestas. Nulla tincidunt dapibus ullamcorper. Etiam sodales faucibus consectetur. Curabitur fermentum, mi ut tristique imperdiet, mi nunc facilisis dolor, eu faucibus enim lacus sit amet felis.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                <p>In sed quam id sem hendrerit condimentum. Vestibulum a urna nisl. Vivamus nunc arcu, bibendum et
+                    magna vel, aliquet luctus orci. Quisque nec dignissim tellus. Phasellus non neque eu dolor mattis
+                    convallis ut ac ipsum. Maecenas eget risus turpis. Etiam eu ullamcorper ligula, in condimentum
+                    lectus. Nullam et risus sed dolor pellentesque consectetur. Mauris at leo malesuada, adipiscing sem
+                    eu, consequat felis. Nullam id molestie lorem, ut faucibus ante. Duis pharetra ligula libero, sed
+                    consequat ipsum faucibus eget. Donec placerat porta dapibus. Integer venenatis id enim et egestas.
+                    Nulla tincidunt dapibus ullamcorper. Etiam sodales faucibus consectetur. Curabitur fermentum, mi ut
+                    tristique imperdiet, mi nunc facilisis dolor, eu faucibus enim lacus sit amet felis.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<!-- Modal Contact -->
-	<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="modalContactLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="modalContactLabel">Contact Me</h4>
-				</div>
+<!-- Modal Contact -->
+<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="modalContactLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="modalContactLabel">Contact Me</h4>
+            </div>
 
-				<div class="modal-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet vestibulum urna, non semper lorem. Vestibulum euismod auctor venenatis. Morbi tincidunt aliquam ligula non posuere. Cras pharetra tortor sed semper porta. Nullam iaculis tortor et pretium lobortis. Phasellus eu dolor dictum, convallis neque tristique, auctor tortor. In dignissim id diam a ornare. Etiam facilisis turpis vel pellentesque sagittis.</p>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet vestibulum urna, non semper
+                    lorem. Vestibulum euismod auctor venenatis. Morbi tincidunt aliquam ligula non posuere. Cras
+                    pharetra tortor sed semper porta. Nullam iaculis tortor et pretium lobortis. Phasellus eu dolor
+                    dictum, convallis neque tristique, auctor tortor. In dignissim id diam a ornare. Etiam facilisis
+                    turpis vel pellentesque sagittis.</p>
 
-				<p>In sed quam id sem hendrerit condimentum. Vestibulum a urna nisl. Vivamus nunc arcu, bibendum et magna vel, aliquet luctus orci. Quisque nec dignissim tellus. Phasellus non neque eu dolor mattis convallis ut ac ipsum. Maecenas eget risus turpis. Etiam eu ullamcorper ligula, in condimentum lectus. Nullam et risus sed dolor pellentesque consectetur. Mauris at leo malesuada, adipiscing sem eu, consequat felis. Nullam id molestie lorem, ut faucibus ante. Duis pharetra ligula libero, sed consequat ipsum faucibus eget. Donec placerat porta dapibus. Integer venenatis id enim et egestas. Nulla tincidunt dapibus ullamcorper. Etiam sodales faucibus consectetur. Curabitur fermentum, mi ut tristique imperdiet, mi nunc facilisis dolor, eu faucibus enim lacus sit amet felis.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                <p>In sed quam id sem hendrerit condimentum. Vestibulum a urna nisl. Vivamus nunc arcu, bibendum et
+                    magna vel, aliquet luctus orci. Quisque nec dignissim tellus. Phasellus non neque eu dolor mattis
+                    convallis ut ac ipsum. Maecenas eget risus turpis. Etiam eu ullamcorper ligula, in condimentum
+                    lectus. Nullam et risus sed dolor pellentesque consectetur. Mauris at leo malesuada, adipiscing sem
+                    eu, consequat felis. Nullam id molestie lorem, ut faucibus ante. Duis pharetra ligula libero, sed
+                    consequat ipsum faucibus eget. Donec placerat porta dapibus. Integer venenatis id enim et egestas.
+                    Nulla tincidunt dapibus ullamcorper. Etiam sodales faucibus consectetur. Curabitur fermentum, mi ut
+                    tristique imperdiet, mi nunc facilisis dolor, eu faucibus enim lacus sit amet felis.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-    <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<!-- JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
-    <!-- Here is the best place for your Analytics Code -->
+<!-- Here is the best place for your Analytics Code -->
 
 </body>
 </html>
