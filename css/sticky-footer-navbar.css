@@ -1,10 +1,17 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 
+html, body {
+  background: url(../img/idea2.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 html {
   position: relative;
   min-height: 100%;
-  background: none;
 }
 body {
   /* Margin bottom by footer height */
@@ -12,7 +19,6 @@ body {
   font-size: 18px;
   color: #fff;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background: none;
 }
 .footer {
   position: absolute;
@@ -74,16 +80,6 @@ code {
 
 
 @media only screen and (min-width: 992px) {
-
-  html, body {
-    background: url(../img/idea2.gif) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-
   .main {
     margin-top: 0;
     position: absolute;
