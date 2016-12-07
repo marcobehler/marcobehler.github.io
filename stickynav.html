@@ -43,42 +43,75 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">marcobehler.com</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
+            <li><a href="#about" data-toggle="modal" data-target="#modalAbout">/imprint</a></li>
+            <li><a href="#services" data-toggle="modal" data-target="#modalServices">/consulting</a></li>
+            <li><a href="#books" data-toggle="modal" data-target="#modalContact">/books</a></li>
+            <li><a href="#contact" data-toggle="modal" data-target="#modalContact">/blog</a></li>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
+    <div class="main">
     <!-- Begin page content -->
     <div class="container">
-      <div class="page-header">
-        <h1>Sticky footer with fixed navbar</h1>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12" style="padding-bottom: 1.5em;">
+          <h1>Want to step up your Java?</h1>
+          <p>A lot of video programming tutorials : ZzzZZzZzZZZ.</p>
+          <p>Not here. Get opinionated and concise screencasts, made for the modern Java developer. Always with
+            real-life code and workflow.</p>
+          <p>
+          <p>
+          <p>(Open to the public: End of January 2017)</p>
+
+          <!-- Social Icons - FontAwesome -->
+
+
+        </div>
+        <div class="col-lg-6 col-sm-12" style="border: 1px solid #ccc;border-radius: 4px; padding: 2em;">
+
+          <div class="form-group">
+
+            <p>Like to get early access? Get our 7-part, no-BS video series to getting started with Spring Boot,
+              from 0 to REST.</p>
+            <form action="https://sendy.marcobehler.com/subscribe" method="POST" accept-charset="utf-8">
+              <label for="name">First Name * </label><br/>
+              <input type="text" name="name" id="name" class="form-control"/>
+              <br/>
+              <label for="email">Email *</label><br/>
+              <input type="email" name="email" id="email" class="form-control"/>
+              <br/>
+              <input type="hidden" name="list" value="7yaui1JL7633CriPxto2zZKA"/>
+              <button type="submit" class="btn btn-primary" name="submit" id="submit">Yep, send me those
+                videos!
+              </button>
+            </form>
+
+          </div>
+        </div>
       </div>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-      <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <p class="social-buttons">
+            <a href="https://github.com/marcobehler"><i class="fa fa-github"></i></a>
+            <a href="https://twitter.com/marcobehler"><i class="fa fa-twitter"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+        </div>
+      </div>
+    </div>
     </div>
 
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <p class="text-muted">@ 2016 | Marcobehler.com</p>
       </div>
     </footer>
 
