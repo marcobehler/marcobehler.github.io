@@ -55,6 +55,13 @@ h1, .h1, h2, .h2, h3, .h3 {
 	/* CHANGE THIS TO -black.png / -blue.png / -green.png / -khaki.png / -sepia.png TO CHANGE THE TINT OF THE BACKGROUND */
 	background: url('../img/bg/tint-blue.png'); 
 }
+
+.newsletter-form {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 2em;
+}
+
 #video_background {
     position: fixed;
     top: 0px;
@@ -114,4 +121,9 @@ h1, .h1, h2, .h2, h3, .h3 {
 	.main {
 		bottom: 1.5em;
 	}
+
+	.video-teaser {
+		margin-top: 6em;
+	}
 }
+

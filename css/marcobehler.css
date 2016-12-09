@@ -48,6 +48,12 @@ body {
     color: white;
 }
 
+.newsletter-form {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2em;
+}
+
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
@@ -77,5 +83,11 @@ code {
     text-shadow: none; /* Prevent inheritance from `body` */
     background-color: #fff;
     border: 1px solid #fff;
+}
+
+@media screen and (min-width:768px) {
+    .video-teaser {
+        margin-top: 6em;
+    }
 }
 
