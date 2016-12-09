@@ -2,44 +2,50 @@
 -------------------------------------------------- */
 
 html, body {
-  background: url(../img/background-small.gif) repeat-y center center fixed;
+    background: url(../img/background-small.gif) repeat-y center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
+
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  font-size: 18px;
-  color: #fff;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: rgba(0,0,0,0.8);
-  color: #9d9d9d;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #9d9d9d;
 }
 
 .main {
-  width: 100%;
-  margin-top: 5em;
+    width: 100%;
+    margin-top: 5em;
 }
 
 
 .navbar {
-  background-color: rgba(0,0,0,0.8);
-  color: #9d9d9d;
-  border-bottom: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #9d9d9d;
+    border-bottom: none;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-  color: white;
+    color: white;
 }
 
 /* Custom page CSS
@@ -47,46 +53,29 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+    padding: 60px 15px 0;
 }
+
 .container .text-muted {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 .footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 code {
-  font-size: 80%;
+    font-size: 80%;
 }
-
-
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
 }
 
-
-@media only screen and (min-width: 992px) {
-  .main {
-    margin-top: 0;
-    position: absolute;
-    bottom: 6em;
-  }
-
-  html, body {
-    background: url(../img/background-desktop.gif) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
